@@ -1,0 +1,43 @@
+{
+  "name": "dazza-dev/dgt-cr-signer",
+  "description": "Paquete para firmar XML de documentos electrónicos (Factura, Nota crédito, Nota débito y Tiquete Electrónico) basado en las especificaciones del Ministerio de Hacienda de Costa Rica.",
+  "keywords": [
+    "dgt",
+    "signer",
+    "firma",
+    "firmar xml",
+    "factura electrónica",
+    "costa rica",
+    "xades-epes",
+    "factura 4.4",
+    "hacienda"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "ramsey/uuid": "^4.9"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Andres Daza",
+      "email": "adaza90@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DazzaDev\\DgtCrSigner\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DazzaDev\\DgtCrSigner\\Tests\\": "tests/"
+    }
+  }
+}
